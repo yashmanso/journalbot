@@ -1,0 +1,5 @@
+journals:
+  - name: Sample Journal
+    feed_url: tests/data/sample_feed.xml
+
+items_per_journal: 2

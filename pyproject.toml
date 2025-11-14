@@ -1,0 +1,19 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "journalbot"
+version = "0.1.0"
+description = "Telegram bot for compiling the latest posts from journal RSS feeds"
+authors = [{name = "Journal Bot"}]
+readme = "README.md"
+requires-python = ">=3.9"
+dependencies = [
+    "feedparser>=6.0",
+    "PyYAML>=6.0",
+    "requests>=2.31",
+]
+
+[project.scripts]
+journalbot = "journalbot.__main__:main"
