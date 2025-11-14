@@ -1,0 +1,5 @@
+journals:
+  - name: Example Journal
+    feed_url: https://example.com/feed
+
+items_per_journal: 3

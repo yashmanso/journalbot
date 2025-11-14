@@ -1,0 +1,12 @@
+# List the journals you want to track. Each entry must provide a name and an RSS/Atom feed URL.
+# You can optionally specify a custom max_items if you want a different number of posts for
+# a specific journal. Otherwise the global items_per_journal value is used.
+journals:
+  - name: Example Journal
+    feed_url: https://example.com/feed
+    max_items: 5
+  - name: Another Journal
+    feed_url: https://another.example.com/rss
+
+# Default number of items per journal when max_items is not provided above.
+items_per_journal: 3
